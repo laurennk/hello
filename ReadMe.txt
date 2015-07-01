@@ -1,0 +1,3 @@
+Assignment 1 is composed of two classes, Compute and Calculator.
+The Compute class is responsible for preforming operations and managing the program stack by pushing operands and results on to it and poping operands off of it.
+The calculator class contains all of the IBAction functions that are associated with the buttons on the storyboard. These are divided into five seperate functions with one for digits(‘0’-‘9’ and ‘.’), operations(‘+’,’-‘,’/‘,’*’), negate(‘+/-‘), clear(‘C’), and equals(‘=‘). It also contains a function used for storing digits, by taking the display text and pushing it onto the stack, and an alert view that is called whenever the clear button is pressed.
